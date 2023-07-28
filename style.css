@@ -11,17 +11,34 @@
     padding: 0;
     border: 0;
 }
+
+body,
+html{
+    overflow-x: hidden;
+}
+
+body{
+    padding: 0px 20px;
+}
 /*----------- começo do código ----------------*/
+
+/*  Config do header */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 /* section de download */
 #download{
     height: 600px;
+    margin-top: 40vh;
 }
 
 /* container unico da section */
 .containerDownload{
-    width: 900px;
-    margin: -35vh auto;
+    max-width: 900px;
+    margin: 0px auto;
     text-align: center;
 }
 
@@ -32,7 +49,7 @@
 }
 
 .containerDownload p{
-    width: 750px;
+    max-width: 750px;
     margin: 10px auto;
     color:var(--azul-grayish);  
     font-size: 20.5px;
@@ -40,9 +57,10 @@
 
 /* botao de download */
 .buttonsDownload{
-    width: 460px;
-    margin: 40px auto;
+    max-width: 460px;
+    margin: 30px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -55,6 +73,7 @@
     font-size: 15px;
     font-weight: 400;
     box-shadow: -30px 25px 45px -11px rgba(209,209,209,1);
+    margin: 5px auto;
 }
 
 /* IOS */
@@ -71,16 +90,16 @@
 
 
 /* ------------------- Section 2 ------------------ */
-
 #dispositivos h1{
     text-align: center;
     color:var(--azul-escruo);
     font-size: 35px;
+    margin-top: 40px;
 }
 
 #dispositivos .paragrafoIntrodutorio{
     text-align: center;
-    width: 750px;
+    max-width: 750px;
     margin: 30px auto;
     font-size: 20.5px;
     color:var(--azul-grayish);  
@@ -98,7 +117,7 @@
 
 .listaComputador{
     height: 380px;
-    margin: 35px 0px 0px 14vh;
+    margin: -30px 0px 0px 5%;
 }
 
 .listaComputador h2{
@@ -150,9 +169,12 @@
 
 /* grupo dos oferecimentos */
 .oferecimentos{
-    width: 160vh;
+    max-width: 160vh;
     margin: 10vh auto;
     display: flex;
+    justify-content: space-around;
+    row-gap: 5vh;
+    flex-wrap: wrap;
 }
 
 /* primeiro card */
@@ -179,10 +201,11 @@
 
 /* patrocinadores */
 .patrocinadores{
-    width: 175vh;
+    /* max-width: 175vh; */
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* padronização das logos de patrocinio */
@@ -221,6 +244,10 @@
     padding: 0px 20vh 0px 20vh;
     margin: 20vh 0px 0px 0px;
     height: 25vh;
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    left: 0;
 }
 
 /* logo no footer */
