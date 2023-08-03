@@ -11,13 +11,19 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Strong Cyan: hsl(171, 66%, 44%)
-- Light Blue: hsl(233, 100%, 69%)
+- Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%)
 
 ### Neutral
 
-- Dark Grayish Blue: hsl(210, 10%, 33%)
-- Grayish Blue: hsl(201, 11%, 66%)
+- Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%)
 
 ## Typography
 
@@ -25,14 +31,16 @@ The designs were created to the following widths:
 
 - Font size: 18px
 
-### Fonts
+### Font
 
-- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
-- Weights: 400, 600
+- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 600
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700, 900
 
 ## Icons
 
-For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
+We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
